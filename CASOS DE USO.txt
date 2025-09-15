@@ -1,0 +1,5 @@
+fundamental hacer diagrama, rectangulo al diagrama, si no esta el diagrama esta mal.
+Dentro del rectangulo, que es el limite de nuestro sistema, estan los casos de uso. Los actores estan por fuera.
+Los actores pueden tener jerarquia.
+<Uses> Significa que un caso de uso lo usan otros casos de uso. Por ejemplo CU #1 y CU #2 <Uses> CU #3
+<Extend> 

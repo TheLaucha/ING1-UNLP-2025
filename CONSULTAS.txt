@@ -1,0 +1,21 @@
+Cuando el enunciado habla de que un usuario debe estar registrado y autenticado, pero no especifica como se hace el registro o la autenticacion.
+(Problema 5 vs Problema 3)
+- Tengo que crear las historias de usuario para registro, inicio sesion, cierre sesion ?
+- En el caso de que si, con que datos ?
+- En el caso de que no, especifico en el dado, que el usuario se encuentra registrado y autenticado ?
+
+RESPUESTA: GENERALMENTE SE HACE, con los datos especificados, sino, se ve dependiendo el ejercicio, pero se hace. Registrar, iniciar y cerrar son siempre muy parecidos, 
+salvo algun caso puntual que sea regla de negocio como por ejemplo, despues de 3 intentos, sucede algo.
+
+- En el cuando generalmente coloco los datos "reales" que ingresaria el usuario, o como pasario, y en el dado, solo lo "obligatorio" es decir, dado cuil "x", 
+usuario registrado y autenticado y listo. Es correcto ?
+
+En el dado van los datos a validar, por ejemplo en el pagar con tarjeta, que sea valida, que sea de credito, que tenga fondos suficientes.
+Pero, dependiendo el escenario, si es escenario fallido por tarjeta invalida, no deberia validar los fondos, ya se que es invalida.
+
+En el problema 4, se habla de que el alumno debe presentar el DNI para asociarse.
+Tengo que evaluar escenarios como, DNI incorrecto ? mas alla de que el enunciado no lo menciona
+Tambien en el problema 5, tengo que evaluar escenarios de CUIL incorrecto ? podria ser mal ingresado, lo que entrario en el escenario tambien de no registrado.
+
+Aca es un poco confuso, depende el enunciado, en este caso, al parecer ser algo presencial, el alumno entrega dni y se le da un numero de socio, no haria 
+falta validar dni. Pero si fuera por sistema, quizas si. A checkear.
